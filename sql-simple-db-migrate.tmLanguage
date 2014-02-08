@@ -12,7 +12,7 @@
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>SQL_UP = \"\"\"|SQL_DOWN = \"\"\"</string>
+			<string>SQL_UP = u?\"\"\"|SQL_DOWN = u?\"\"\"</string>
 			<key>end</key>
 			<string>\"\"\"</string>
 			<key>name</key>
