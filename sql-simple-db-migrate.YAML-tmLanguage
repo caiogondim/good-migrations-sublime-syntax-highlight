@@ -1,12 +1,12 @@
 # [PackageDev] target_format: plist, ext: tmLanguage
 ---
-name: SQL (Good Migrations)
-scopeName: source.goodmigration
+name: SQL (simple-db-migrate)
+scopeName: source.simple-db-migrate
 fileTypes: [migration]
 uuid: 3d67aa2b-9344-4573-abc4-cdb2fd258995
 
 patterns:
-- name: sql.goodmigration
+- name: sql.simple-db-migrate
   begin: SQL_UP = \"\"\"|SQL_DOWN = \"\"\"
   end: \"\"\"
   patterns:

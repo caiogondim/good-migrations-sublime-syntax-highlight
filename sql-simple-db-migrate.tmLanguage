@@ -7,7 +7,7 @@
 		<string>migration</string>
 	</array>
 	<key>name</key>
-	<string>SQL (Good Migrations)</string>
+	<string>SQL (simple-db-migrate)</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -16,7 +16,7 @@
 			<key>end</key>
 			<string>\"\"\"</string>
 			<key>name</key>
-			<string>sql.goodmigration</string>
+			<string>sql.simple-db-migrate</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -27,7 +27,7 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.goodmigration</string>
+	<string>source.simple-db-migrate</string>
 	<key>uuid</key>
 	<string>3d67aa2b-9344-4573-abc4-cdb2fd258995</string>
 </dict>
