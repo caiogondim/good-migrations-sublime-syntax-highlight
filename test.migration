@@ -1,7 +1,0 @@
-SQL_UP = """
-INSERT INTO `table` VALUES (1, 3, 4);
-"""
-
-SQL_DOWN = """
-INSERT INTO `table` VALUES (1, 3, 4);
-"""
