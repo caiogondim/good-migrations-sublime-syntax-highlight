@@ -1,0 +1,14 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: SQL (Good Migrations)
+scopeName: source.goodmigration
+fileTypes: [migration]
+uuid: 3d67aa2b-9344-4573-abc4-cdb2fd258995
+
+patterns:
+- name: sql.goodmigration
+  begin: SQL_UP = \"\"\"|SQL_DOWN = \"\"\"
+  end: \"\"\"
+  patterns:
+  - include: source.sql
+...
